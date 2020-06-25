@@ -69,6 +69,10 @@ img {
 	max-height: 500px;
 }
 
+.coat {
+	max-height: 150px;
+}
+
 div{
 	margin: 20px 50px;
 	padding: 18px;
@@ -95,26 +99,8 @@ div{
 #introduction {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: stretch;
-}
-
-#introduction figure {
-	height: 350px;
-	width: 40%;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#introduction figure img {
-	width: 283px;
-	height: 100%;
-	display: block;
-}
-
-#introduction h1 {
-	margin: auto;
-	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
 }
 
 footer {

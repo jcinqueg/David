@@ -4,6 +4,11 @@
     padding: 0px;
     width: 100%;
     border-bottom: 2px solid gray;
+
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 #empire p {
