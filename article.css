@@ -1,0 +1,164 @@
+#empire {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+#empire p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: white;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    position: sticky;
+    top: 0;
+}
+
+nav div {
+    margin: 0px 50px;
+    min-width: 100px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+nav aside {
+    margin-left: 100px;
+}
+
+nav aside p {
+    color: darkgray;
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px 50px;
+	padding: 50px;
+	background: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+	align-items: flex-start;
+}
+
+main header {
+    margin: 50px 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main header summary {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main header summary span {
+    background: black;
+    border-radius: 10%;
+    margin-right: 100px;
+}
+
+main header summary span p {
+    margin: 8px;
+    padding: 0px;
+    color: white;
+    font-weight: 800;
+}
+
+main section {
+    background: transparent;
+    margin: 5px;
+    padding: 30px 20px;
+
+    width: 90%;
+
+    border-top: 2px solid gray;
+	box-shadow: none;
+    border-radius: 0px;
+}
+
+main section p {
+    text-indent: 3.0em;
+}
+
+#first::first-letter {
+    font-size: 3em;
+    font-family: 'KingsCross';
+}
+
+main section figure {
+    margin: 10px;
+    max-width: 50%;
+    float: left;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main section figure img {
+    margin: 10px;
+    max-width: 90%;
+    float: inherit;
+}
+
+main section figure figcaption {
+    float: inherit;
+    max-width: 80%;
+}
+
+.small {
+    max-width: 200px;
+}
+
+.medium {
+    max-width: 350px;
+}
+
+.large {
+    max-width: 500px;
+}
+
+.xlarge {
+    max-width: 650px;
+}
+
+.quote {
+    text-indent: 0em;
+    margin: 15px 30% 15px 10%;
+    font-family: "Courier New", Courier, monospace;
+    color: grey;
+    font-style: italic;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
