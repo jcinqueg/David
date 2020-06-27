@@ -5,8 +5,8 @@ Script used for articles within the David Website
 function toColor( category ) {
     switch(category) {
         case "Domestic": return "red";
-        case "Foreign": return "blue";
-        case "Scandal": return "pink";
+        case "Science": return "blue";
+        case "Foreign": return "pink";
         case "Health": return "green"
         default: return "gray";
     }

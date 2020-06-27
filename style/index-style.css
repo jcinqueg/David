@@ -56,6 +56,10 @@ main section aside {
     justify-content: flex-start;
 }
 
+main section figure img {
+    max-height: 100%;
+}
+
 .det {
 	font-size: 15px;
 	margin: 10px 100px;
