@@ -8,6 +8,7 @@ function toColor( category ) {
         case "Science": return "blue";
         case "Foreign": return "pink";
         case "Health": return "green"
+        case "Conflict": return "coral";
         default: return "gray";
     }
 }
